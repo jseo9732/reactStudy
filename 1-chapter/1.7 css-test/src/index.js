@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Box from './Box3';
+import Box from './Box3-2';
 import Button from './Button3';
 
 ReactDOM.render(
