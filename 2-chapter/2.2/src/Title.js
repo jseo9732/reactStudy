@@ -1,5 +1,7 @@
 import React from 'react';
 
-export default function Title({ title }) {
+function Title({ title }) {
     return <p>{ title }</p>;
 }
+
+export default React.memo(Title);
