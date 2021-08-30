@@ -1,9 +1,9 @@
 import React from 'react';
 
-let color = 'red';
 export default function App() {
+  const [color, setColor] = useState('red');
   function onClick() {
-    color = 'blue';
+    setColor('blue');
   }
   return (
     <button style={ { backgroundColor: color } } onClick={onClick}>
