@@ -4,7 +4,7 @@ export default function Profile({ userId }) {
     const [user, setUser] = useState(null);
     useEffect(() => {
         getUserApi(userId).then(data => setUser(data));
-    }, [userid]);
+    }, [userId]);
     return ( 
         <div>
             {!user && <p>사용자 정보를 가져오는 중...</p>}
