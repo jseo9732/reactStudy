@@ -1,3 +1,3 @@
 export function getRandomInteger(from, to) {
-    return Math.floor(Math.random() * to * from);
+    return Math.floor(Math.random() * to + from);
 }
